@@ -1,7 +1,7 @@
 {
 	"name": "classnames-merge-tw",
-	"version": "1.0.0",
-	"description": "A simple & lightweight utility for merging className strings conditionally for TailwindCSS.",
+	"version": "1.0.1",
+	"description": "Utility function for merging tailwind className conditionally for Tailwind CSS in JS.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"scripts": {
@@ -16,12 +16,14 @@
 		"url": "https://github.com/lavisar/classnames-merge-tw.git"
 	},
 	"keywords": [
-		"classnames",
 		"tailwindcss",
-		"utility",
+		"tailwind",
+		"css",
+		"react",
+		"classes",
+		"className",
 		"merge",
-		"conditional",
-		"typescript"
+		"conflict"
 	],
 	"author": "Lavisar <youremail@example.com>",
 	"license": "MIT",
