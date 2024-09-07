@@ -1,16 +1,35 @@
 {
-  "name": "my-classnames-package",
-  "version": "1.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build"
-  },
-  "files": [
-    "dist"
-  ],
-  "devDependencies": {
-    "typescript": "^4.0.0"
-  }
+	"name": "classnames-merge-tw",
+	"version": "1.0.0",
+	"description": "A simple & lightweight utility for merging className strings conditionally for TailwindCSS.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"prepare": "npm run build"
+	},
+	"files": [
+		"dist"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lavisar/classnames-merge-tw.git"
+	},
+	"keywords": [
+		"classnames",
+		"tailwindcss",
+		"utility",
+		"merge",
+		"conditional",
+		"typescript"
+	],
+	"author": "Lavisar <youremail@example.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/lavisar/classnames-merge-tw/issues"
+	},
+	"homepage": "https://github.com/lavisar/classnames-merge-tw#readme",
+	"devDependencies": {
+		"typescript": "^4.0.0"
+	}
 }
