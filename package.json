@@ -1,6 +1,6 @@
 {
 	"name": "classnames-merge-tw",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Utility function for merging tailwind className conditionally for Tailwind CSS in JS.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
