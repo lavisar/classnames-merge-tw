@@ -5,11 +5,10 @@
 <a href="https://pkg-size.dev/classnames-merge-tw"><img src="https://pkg-size.dev/badge/install/103906" title="Install size for classnames-merge-tw"></a>
 <a href="https://pkg-size.dev/classnames-merge-tw"><img src="https://pkg-size.dev/badge/bundle/24854" title="Bundle size for classnames-merge-tw"></a>
 
--   A lightweight utility for conditionally constructing className strings, ideal for TailwindCSS users.
--   This module allows you to easily combine class names based on conditions, supporting strings, arrays, and objects for flexibility.
+### A very light module helps you conditionally join class names for your components, making it easy to manage dynamic class logic across various CSS frameworks and libraries like Bootstrap, Tailwind CSS, Material-UI, Ant Design, and more.
 
 ## Install
-
+Install via npm or yarn:
 ```bash
 npm install classnames-merge-tw
 ```
@@ -66,12 +65,26 @@ cn(true, false, '', null, undefined, 0, NaN);
 cn('text-sm', isActive && 'text-primary', 'p-4');
 ```
 
-//=> 'text-sm text-primary p-4'
-Benchmarks
-For performance snapshots, check out the benchmarks directory!
+### Examples for Other CSS & UI Frameworks
+- Bootstrap
+```js
+const buttonClass = cn('btn', 'btn-primary', { 'active': isActive });
+//=> 'btn btn-primary active'
+```
+- Material-UI
+```js
+const muiClass = cn('MuiButton-root', { 'MuiButton-disabled': isDisabled });
+//=> 'MuiButton-root MuiButton-disabled'
+```
+- Ant Design
+```js
+const antClass = cn('ant-btn', 'ant-btn-primary', { 'ant-btn-dangerous': isDanger });
+//=> 'ant-btn ant-btn-primary ant-btn-dangerous'
+```
 
-Tailwind Autocompletion Support in VSCode
-To enable class name autocompletion when using TailwindCSS with classnames-merge-tw, follow these steps for Visual Studio Code:
+
+//=> 'text-sm text-primary p-4'
+
 
 License
 MIT © Lavisar
