@@ -2,8 +2,7 @@
 
 [![Downloads](https://img.shields.io/npm/dt/classnames-merge-tw.svg?style=flat&color=success)](https://www.npmjs.com/package/classnames-merge-tw)
 [![Version](https://img.shields.io/npm/v/classnames-merge-tw?style=flat&color=success)](https://www.npmjs.com/package/classnames-merge-tw)
-<a href="https://pkg-size.dev/classnames-merge-tw"><img src="https://pkg-size.dev/badge/install/103906" title="Install size for classnames-merge-tw"></a>
-<a href="https://pkg-size.dev/classnames-merge-tw"><img src="https://pkg-size.dev/badge/bundle/24854" title="Bundle size for classnames-merge-tw"></a>
+<a href="https://pkg-size.dev/classnames-merge-tw"><img src="https://pkg-size.dev/badge/install/3900" title="Install size for classnames-merge-tw"></a>
 
 ### A very light module helps you conditionally join class names for your components, making it easy to manage dynamic class logic across various CSS frameworks and libraries like Bootstrap, Tailwind CSS, Material-UI, Ant Design, and more.
 
