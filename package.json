@@ -30,7 +30,7 @@
 	"bugs": {
 		"url": "https://github.com/lavisar/classnames-merge-tw/issues"
 	},
-	"homepage": "https://github.com/lavisar/classnames-merge-tw#readme",
+	"homepage": "https://deepwiki.com/lavisar/classnames-merge-tw",
 	"devDependencies": {
 		"typescript": "^4.0.0"
 	}
