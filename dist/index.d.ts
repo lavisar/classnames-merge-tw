@@ -1,5 +1,5 @@
-type ClassNamesArg = string | {
-    [key: string]: boolean;
-} | boolean | undefined | null;
-export declare const cn: (...classNames: ClassNamesArg[]) => string;
+type ClassNamesArg = string | null | undefined | boolean | {
+    [key: string]: boolean | undefined | null;
+} | ClassNamesArg[];
+export declare const cn: (...args: ClassNamesArg[]) => string;
 export {};
