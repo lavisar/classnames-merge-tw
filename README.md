@@ -3,6 +3,7 @@
 [![Downloads](https://img.shields.io/npm/dt/classnames-merge-tw.svg?style=flat&color=success)](https://www.npmjs.com/package/classnames-merge-tw)
 [![Version](https://img.shields.io/npm/v/classnames-merge-tw?style=flat&color=success)](https://www.npmjs.com/package/classnames-merge-tw)
 <a href="https://pkg-size.dev/classnames-merge-tw"><img src="https://pkg-size.dev/badge/install/3900" title="Install size for classnames-merge-tw"></a>
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/lavisar/classnames-merge-tw)
 
 ## 🚀 Feature
 
@@ -94,17 +95,6 @@ cn('MuiButton-root', { 'MuiButton-disabled': isDisabled });
 cn('ant-btn', 'ant-btn-primary', { 'ant-btn-dangerous': isDanger });
 //=> 'ant-btn ant-btn-primary ant-btn-dangerous'
 ```
-
-## ⚠️ Limitations
-
-- Currently, the utility does not support:
-
-Tailwind responsive variants (e.g. md:p-4)
-
-Arbitrary values (e.g. p-[2.5rem])
-
-!important prefixes
-These features may be added in future releases.
 
 ---
 ## 📄 License
